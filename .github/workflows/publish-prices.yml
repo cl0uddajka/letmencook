@@ -1,0 +1,32 @@
+name: Publish reviewed market prices
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/market-prices/latest.json'
+      - 'pipeline/publish_prices.py'
+      - '.github/workflows/publish-prices.yml'
+permissions:
+  contents: write
+concurrency:
+  group: publish-market-prices
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s pipeline -p test_publish_prices.py
+      - run: python pipeline/publish_prices.py
+      - name: Save generated files
+        run: |
+          git config user.name "market-price-publisher"
+          git config user.email "market-price-publisher@users.noreply.github.com"
+          git add public/prices
+          if ! git diff --cached --quiet; then
+            git commit -m "Update validated market price feed"
+            git push
+          fi
