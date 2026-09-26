@@ -14,7 +14,7 @@
 
 ## GitHub
 
-Dự án hiện chưa có repository hoặc quyền GitHub. Workflow đã chuẩn bị trong .github/workflows/publish-prices.yml nhưng CHƯA được triển khai.
+Đã kết nối repository công khai https://github.com/cl0uddajka/letmencook, nhánh main. Đã đẩy bảng JSON và workflow. Giữ nguyên file datamarket hiện có.
 
 Tạo repository công khai chuyên cho giá rồi đưa lên: pipeline/publish_prices.py, pipeline/test_publish_prices.py, data/market-prices/latest.json, public/prices và workflow. Đừng đưa khóa ký, password.dpapi, dữ liệu người chơi hay toàn bộ thư mục cá nhân lên GitHub. Bật Actions với quyền Read and write cho workflow. Mỗi lần push dữ liệu nguồn hoặc chạy workflow thủ công, workflow kiểm tra rồi commit bảng giá xuất ra.
 
@@ -22,7 +22,7 @@ Workflow không tự tìm bài báo. Lịch Codex đảm nhiệm nghiên cứu n
 
 Địa chỉ mẫu (thay OWNER, REPO, BRANCH thực):
 
-https://raw.githubusercontent.com/OWNER/REPO/BRANCH/public/prices/latest.json
+https://raw.githubusercontent.com/cl0uddajka/letmencook/main/public/prices/latest.json
 
 Trong game: về nhà → Chọn món → Khu vực & giá chợ → chọn Hà Nội hoặc TP.HCM → dán URL HTTPS → Lưu & tải. Chờ tải rồi mở lại bảng chọn món để áp dụng. URL phải trả JSON trực tiếp, không phải trang xem file github.com. Không nhập token; game chỉ dùng endpoint công khai. Có thể dùng HTTPS hosting khác thay GitHub.
 
@@ -33,4 +33,8 @@ Trong game: về nhà → Chọn món → Khu vực & giá chợ → chọn Hà 
 - Giá chuẩn kg/lít/quả được đổi sang lượng bán của game; các sạp vẫn có chênh lệch mô phỏng như trước.
 - Có thể cập nhật dữ liệu mà không build lại APK khi đã cấu hình URL.
 - Bản này thêm quyền Internet. Endpoint nhìn thấy IP và thông tin kết nối khi game tải file, nhưng game không gửi ví, túi đồ hay món chọn. Chính sách riêng tư/Data safety cần phản ánh việc tải dữ liệu và nhà cung cấp hosting trước khi phát hành.
-- Chưa có URL hoạt động cho người chơi: cần kết nối repo/hosting và kiểm tra tải trên thiết bị thật. Hiện chỉ có kiểm tra logic quy đổi, hết hạn, tách vùng và xuất file.
+- Đã kiểm tra Godot tải được JSON thật từ GitHub qua HTTPS. Chưa thử trên điện thoại thật.
+
+## Trạng thái triển khai hiện tại
+
+Game mặc định dùng URL raw GitHub ở trên. Lịch Codex 07:15 tìm nguồn, xuất và chạy pipeline/publish_github.py để đẩy dữ liệu mỗi ngày. Máy cần sẵn sàng cho Codex chạy; GitHub Workflow chỉ tái xuất khi nhận dữ liệu mới hoặc chạy thủ công, không tự nghiên cứu giá. Chạy XuatGiaGame.cmd chỉ xuất local; chạy python pipeline/publish_github.py sẽ xuất và đẩy dữ liệu đã được cho phép. Bảng hiện trống vì không có giá đạt ngưỡng, không phải lỗi kết nối.
