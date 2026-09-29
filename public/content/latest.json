@@ -1,10 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T01:49:00.529480+07:00",
+  "generated_at": "2026-09-30T01:50:21.963072+07:00",
   "regions": {
-    "Hà Nội": {},
+    "Hà Nội": {
+      "sườn cừu": {
+        "price_vnd": 455000,
+        "unit": "kg",
+        "variant": "sườn",
+        "surveyed_on": "2026-09-30",
+        "valid_until": "2026-10-02",
+        "market": "chợ Chàng",
+        "source_type": "manual_game_price",
+        "previous_price_vnd": 455000
+      }
+    },
     "TP.HCM": {}
   },
-  "products": [],
+  "products": [
+    {
+      "name": "sườn cừu",
+      "group": "Thịt",
+      "unit": "kg",
+      "pack_amount": 500,
+      "base_price": 15000
+    }
+  ],
   "recipes": []
 }

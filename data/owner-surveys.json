@@ -1,4 +1,29 @@
 {
-  "observations": [],
+  "observations": [
+    {
+      "id": "10412e1f-f4cd-439a-8e78-ef03fcd70105",
+      "ingredient": "sườn cừu",
+      "region": "Hà Nội",
+      "unit": "kg",
+      "surveyed_on": "2026-09-30",
+      "price_vnd": 455000,
+      "group": "Thịt",
+      "market": "chợ Chàng",
+      "variant": "sườn",
+      "saved_at": "2026-09-30T01:50:21.962586+07:00"
+    },
+    {
+      "id": "8d1c452d-09ed-44ea-a2d2-d93e8bdf1da8",
+      "ingredient": "sườn cừu",
+      "region": "Hà Nội",
+      "unit": "kg",
+      "surveyed_on": "2026-09-30",
+      "price_vnd": 455000,
+      "group": "Thịt",
+      "market": "chợ Chàng",
+      "variant": "sườn",
+      "saved_at": "2026-09-30T01:50:21.962586+07:00"
+    }
+  ],
   "recipes": []
 }
