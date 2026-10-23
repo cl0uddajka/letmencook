@@ -1,19 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T01:50:21.963072+07:00",
+  "generated_at": "2026-10-23T22:29:36.874764+07:00",
   "regions": {
-    "Hà Nội": {
-      "sườn cừu": {
-        "price_vnd": 455000,
-        "unit": "kg",
-        "variant": "sườn",
-        "surveyed_on": "2026-09-30",
-        "valid_until": "2026-10-02",
-        "market": "chợ Chàng",
-        "source_type": "manual_game_price",
-        "previous_price_vnd": 455000
-      }
-    },
+    "Hà Nội": {},
     "TP.HCM": {}
   },
   "products": [
@@ -25,5 +14,601 @@
       "base_price": 15000
     }
   ],
-  "recipes": []
+  "recipes": [
+    {
+      "id": "web_vn_20261023_khoai_tay_xao_toi",
+      "name": "Khoai tây xào tỏi",
+      "servings": 2,
+      "minutes": 25,
+      "ingredients": [
+        {
+          "item": "Khoai tây",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Hạt nêm",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Gọt khoai, bỏ củ xanh hoặc mọc mầm; rửa rồi thái lát mỏng. Băm tỏi.",
+        "Làm thơm tỏi với dầu, cho khoai vào đảo nhẹ.",
+        "Thêm 100 ml nước sạch và hạt nêm; đậy nắp, nấu nhỏ lửa đến khi khoai mềm. Thêm nước nếu cạn.",
+        "Mở nắp, đảo nhẹ cho ráo bớt nước rồi dọn nóng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_bap_cai_xao_toi",
+      "name": "Bắp cải xào tỏi",
+      "servings": 2,
+      "minutes": 15,
+      "ingredients": [
+        {
+          "item": "Bắp cải",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Muối",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Bỏ lá hỏng, rửa bắp cải và cắt nhỏ; băm tỏi.",
+        "Phi thơm tỏi trong dầu rồi cho phần cuống cải vào trước.",
+        "Thêm lá, đảo đều và nêm muối. Nếu chảo khô, thêm một ít nước sạch.",
+        "Xào đến khi cuống chín, lá còn độ giòn rồi tắt bếp."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_ba_chi_kho_tieu",
+      "name": "Ba chỉ kho tiêu",
+      "servings": 2,
+      "minutes": 45,
+      "ingredients": [
+        {
+          "item": "Thịt ba chỉ",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tiêu",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Đường",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Cắt thịt thành miếng vừa ăn, băm tỏi. Ướp thịt với nước mắm, đường và nửa phần tiêu trong ngăn mát 10 phút.",
+        "Cho thịt vào nồi, đảo lửa vừa cho ra mỡ rồi thêm tỏi.",
+        "Thêm 200 ml nước sạch, đun sôi rồi kho nhỏ lửa đến khi thịt chín mềm.",
+        "Đun cho nước kho sánh, rắc phần tiêu còn lại rồi dùng nóng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_bo_kho_gung",
+      "name": "Bò kho gừng",
+      "servings": 2,
+      "minutes": 90,
+      "ingredients": [
+        {
+          "item": "Thịt bò",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Gừng",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Đường",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Thái bò thành miếng nhỏ, gừng thái sợi.",
+        "Đảo gừng với dầu, thêm bò và xào săn.",
+        "Cho nước mắm, đường và 500 ml nước sạch. Đun sôi, hớt bọt rồi đậy nắp kho nhỏ lửa.",
+        "Kho đến khi bò mềm, thêm nước nóng khi cần. Mở nắp cho nước kho bớt loãng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_cai_ngot_xao_bo",
+      "name": "Cải ngọt xào thịt bò",
+      "servings": 2,
+      "minutes": 25,
+      "ingredients": [
+        {
+          "item": "Cải ngọt",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Thịt bò",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Rửa cải, tách cọng và lá; thái bò mỏng ngang thớ, băm tỏi.",
+        "Phi nửa phần tỏi với nửa lượng dầu, xào bò đến chín rồi để riêng.",
+        "Cho dầu và tỏi còn lại vào chảo; xào cọng cải trước, lá sau. Thêm chút nước nếu khô.",
+        "Khi cải chín, cho bò trở lại, nêm nước mắm và đảo đều."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_canh_rau_den",
+      "name": "Canh rau dền",
+      "servings": 2,
+      "minutes": 15,
+      "ingredients": [
+        {
+          "item": "Rau dền",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Muối",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Nhặt ngọn và lá non, rửa sạch rau rồi cắt ngắn.",
+        "Đun sôi 700 ml nước sạch với muối.",
+        "Cho rau vào, nấu đến khi cọng mềm và rau chín.",
+        "Nêm nước mắm, đun sôi lại rồi múc ra bát."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_canh_cu_cai_bo",
+      "name": "Canh củ cải thịt bò",
+      "servings": 2,
+      "minutes": 35,
+      "ingredients": [
+        {
+          "item": "Củ cải",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Thịt bò",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "item": "Gừng",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Gọt củ cải, cắt miếng mỏng; thái bò ngang thớ và thái sợi gừng.",
+        "Đảo gừng, bò với dầu đến khi bò săn.",
+        "Thêm 700 ml nước sạch và củ cải, đun sôi rồi hạ lửa.",
+        "Nấu đến khi củ cải mềm, thịt chín; hớt bọt và nêm nước mắm."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_muc_chien_mam",
+      "name": "Mực chiên nước mắm",
+      "servings": 2,
+      "minutes": 30,
+      "ingredients": [
+        {
+          "item": "Mực",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Đường",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 30.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Làm sạch mực, bỏ túi mực, nội tạng, mắt và răng; rửa và thấm thật khô, cắt miếng.",
+        "Chiên mực với dầu đến chín, vớt ra. Chắt bớt dầu, giữ lại một ít trong chảo.",
+        "Phi tỏi, thêm nước mắm, đường và 30 ml nước sạch; đun cho đường tan.",
+        "Cho mực vào đảo đến khi sốt bám đều rồi dọn nóng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_canh_cu_cai_thit",
+      "name": "Canh củ cải thịt băm",
+      "servings": 2,
+      "minutes": 30,
+      "ingredients": [
+        {
+          "item": "Củ cải",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Thịt nạc vai",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Gọt củ cải và cắt miếng nhỏ. Băm thịt trên dụng cụ riêng.",
+        "Xào thịt với dầu, đảo cho tơi.",
+        "Thêm 700 ml nước sạch, đun sôi và hớt bọt rồi cho củ cải vào.",
+        "Nấu đến khi củ cải mềm và thịt chín kỹ; nêm nước mắm."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_trung_chien_thit",
+      "name": "Trứng chiên thịt băm",
+      "servings": 2,
+      "minutes": 20,
+      "ingredients": [
+        {
+          "item": "Trứng gà",
+          "amount": 3.0,
+          "unit": "quả"
+        },
+        {
+          "item": "Thịt nạc vai",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 8.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Tiêu",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Băm thịt thật nhỏ; đánh trứng với nước mắm và tiêu.",
+        "Xào thịt với một nửa lượng dầu cho chín kỹ, để nguội bớt rồi trộn với trứng.",
+        "Cho dầu còn lại vào chảo, đổ hỗn hợp thành lớp mỏng; chiên lửa vừa nhỏ.",
+        "Lật nhẹ và chiên mặt còn lại đến khi trứng đông hoàn toàn, không còn phần lỏng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_muc_xao_hanh",
+      "name": "Mực xào hành tây",
+      "servings": 2,
+      "minutes": 25,
+      "ingredients": [
+        {
+          "item": "Mực",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Hành tây",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "item": "Cà rốt",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Làm sạch mực, bỏ nội tạng, túi mực, mắt và răng; rửa, để ráo và cắt miếng.",
+        "Thái hành tây múi nhỏ, cà rốt lát mỏng; băm tỏi.",
+        "Phi tỏi với dầu, xào mực chín rồi để riêng. Xào cà rốt với chút nước, sau đó cho hành tây vào.",
+        "Khi rau củ chín, thêm mực và nước mắm, đảo đều rồi tắt bếp."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_muc_xao_rau_muong",
+      "name": "Mực xào rau muống",
+      "servings": 2,
+      "minutes": 25,
+      "ingredients": [
+        {
+          "item": "Mực",
+          "amount": 250.0,
+          "unit": "g"
+        },
+        {
+          "item": "Rau muống",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Nhặt và rửa rau. Làm sạch mực, bỏ nội tạng, túi mực, mắt và răng; cắt miếng.",
+        "Phi nửa phần tỏi với dầu, xào mực chín rồi trút ra đĩa.",
+        "Thêm tỏi còn lại, cho cọng rau rồi lá vào xào; thêm ít nước để rau chín đều.",
+        "Cho mực trở lại cùng nước mắm, đảo đến khi rau chín rồi dùng nóng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_thit_kho_trung",
+      "name": "Thịt kho trứng",
+      "servings": 2,
+      "minutes": 75,
+      "ingredients": [
+        {
+          "item": "Thịt ba chỉ",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "item": "Trứng gà",
+          "amount": 2.0,
+          "unit": "quả"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 20.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Đường",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Cắt thịt thành miếng. Luộc trứng chín kỹ, làm nguội rồi bóc vỏ.",
+        "Ướp thịt với nước mắm, tỏi băm và đường trong ngăn mát 10 phút.",
+        "Đảo thịt cho săn, thêm 500 ml nước sạch; đun sôi rồi kho nhỏ lửa khoảng 35 phút.",
+        "Cho trứng vào, kho tiếp đến khi thịt mềm và trứng thấm vị; thêm nước nóng nếu cạn."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_rau_muong_luoc",
+      "name": "Rau muống luộc",
+      "servings": 2,
+      "minutes": 15,
+      "ingredients": [
+        {
+          "item": "Rau muống",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "item": "Muối",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "item": "Nước mắm",
+          "amount": 10.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Nhặt bỏ cọng già, rửa rau kỹ với nước sạch.",
+        "Đun sôi khoảng 1 lít nước, thêm muối.",
+        "Cho rau vào, trở cho ngập nước và luộc đến khi cọng chín.",
+        "Vớt rau ra cho ráo, dùng nước mắm để chấm."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    },
+    {
+      "id": "web_vn_20261023_mong_toi_xao_toi",
+      "name": "Mồng tơi xào tỏi",
+      "servings": 2,
+      "minutes": 15,
+      "ingredients": [
+        {
+          "item": "Mồng tơi",
+          "amount": 350.0,
+          "unit": "g"
+        },
+        {
+          "item": "Tỏi",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "item": "Dầu ăn",
+          "amount": 15.0,
+          "unit": "ml"
+        },
+        {
+          "item": "Muối",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Nhặt lá và cọng non, rửa sạch rồi để ráo. Băm tỏi.",
+        "Cho dầu vào chảo, phi tỏi đến thơm.",
+        "Xào cọng mồng tơi trước, sau đó thêm lá và muối.",
+        "Đảo đến khi cọng và lá chín, dọn ngay khi còn nóng."
+      ],
+      "pantry": [],
+      "provenance": "Chủ game nhập thủ công",
+      "review_status": "owner_entered"
+    }
+  ]
 }
